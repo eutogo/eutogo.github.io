@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body {
+    background-color: #003399;
+    font-family: "Helvetica", "Arial", "sans-serif";
+}
+/* 
+ul {
+    list-style: none;
+} */
+
+.menue {
+    text-align: center;
+}
+
+.navlink {
+    color: #FFCC00; 
+    text-decoration: none;
+}
+
+.box{
+    /* background-color: red; */
+    margin: auto;
+	position: relative;
+    width: 60%;
+    margin-top: 80px;
+}
+.box:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+    margin-bottom: 50px;
+}
+
+.starbox{
+	position: absolute;
+    /* background-color: green; */
+	list-style: none;
+    height: 50%;
+    width: 20%;
+	top: 50%;
+    left: 50%;
+}
+
+.star {
+    width: 60%;
+    margin-left: -30%;
+    margin-top: -30%;
+    /* margin-left: -40px; */
+}
+
+#star1 {transform: rotate(0deg) translate(0px, 80%) rotate(0deg)}
+#star2 {transform: rotate(30deg) translate(0px, 80%) rotate(-30deg)}
+#star3 {transform: rotate(60deg) translate(0px, 80%) rotate(-60deg)}
+#star4 {transform: rotate(90deg) translate(0px, 80%) rotate(-90deg)}
+#star5 {transform: rotate(120deg) translate(0px, 80%) rotate(-120deg)}
+#star6 {transform: rotate(150deg) translate(0px, 80%) rotate(-150deg)}
+#star7 {transform: rotate(180deg) translate(0px, 80%) rotate(-180deg)}
+#star8 {transform: rotate(210deg) translate(0px, 80%) rotate(-210deg)}
+#star9 {transform: rotate(240deg) translate(0px, 80%) rotate(-240deg)}
+#star10 {transform: rotate(270deg) translate(0px, 80%) rotate(-270deg)}
+#star11 {transform: rotate(300deg) translate(0px, 80%) rotate(-300deg)}
+#star12 {transform: rotate(330deg) translate(0px, 80%) rotate(-330deg)}
+
+
+footer {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
