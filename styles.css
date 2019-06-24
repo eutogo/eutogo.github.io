@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color: #000982; color: #FFCC00; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+.menue {text-align: center;background-color: #000982; padding: 10px }
+
+.navlink { color: #FFCC00; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; text-decoration: none}
+
+h1 {color:#FFCC00; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";  text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); text-align: center}
+
+a:link {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+.box {
+	background-color: #FFCC00;
+	color: #000982;
+	width: 50%;
+	margin-left: 23%;
+	padding: 10px;
+	
+		
+}
+
+footer {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	}
